@@ -38,7 +38,7 @@ public class HtmlLauncher extends GwtApplication {
 
                 EventListenerCallback callback = event -> {
                         if (!once.get()) {
-                                client.send("hello");
+                                client.send("Suhariki");
                                 once.set(true);
                         }
                         log(event.getData());
